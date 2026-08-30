@@ -46,6 +46,14 @@ window.PHYSICISTS = [
     scholar: "https://scholar.google.com/citations?hl=en&user=7wiebe8AAAAJ&view_op=list_works&sortby=pubdate"
   },
   {
+    name: "Rong Yu (俞蓉)",
+    scholar: "https://scholar.google.com/citations?hl=en&user=zb31-20AAAAJ&view_op=list_works&sortby=pubdate"
+  },
+  {
+    name: "Zheng-Xin Liu",
+    scholar: "https://scholar.google.com/citations?hl=en&user=hkjrTeMAAAAJ&view_op=list_works&sortby=pubdate"
+  },
+  {
     name: "Meng Cheng (程蒙)",
     home: "https://meng-cheng.github.io/",
     scholar: "https://scholar.google.com/citations?hl=en&user=3lyNWR0AAAAJ&view_op=list_works&sortby=pubdate"
