@@ -1,73 +1,34 @@
 # Personal Academic Website
 
-A minimal static academic homepage — plain HTML + CSS, no frameworks,
-no build step. Inspired by [Shinichiro Akiyama's homepage](https://akiyama-es.github.io/).
+Jian-Gang Kong (孔建刚) 的个人学术主页。
 
-## Pages
+**在线网址:** https://harrykjg-physics.github.io/
 
-| File                 | Content                              |
-|----------------------|--------------------------------------|
-| `index.html`         | Home: bio, affiliation, research interests, education, career, links |
-| `publications.html`  | Publication list (grouped by year, with arXiv/DOI/PDF links) |
-| `teaching.html`      | Courses taught / TA'd, students      |
-| `presentations.html` | Invited talks, seminars, posters     |
-| `assets/css/style.css` | Shared stylesheet                  |
+纯静态网站（HTML + CSS + JS，无构建步骤），通过 GitHub Pages 部署。
 
-All personal data is marked with `<!-- TODO: -->` comments — search for
-`TODO` and replace with your real information.
+## 页面
 
-## Deploy to GitHub Pages (`<username>.github.io`)
+| 文件 | 内容 |
+|------|------|
+| `index.html` | 主页：简介、研究兴趣、教育经历、链接 |
+| `publications.html` | 论文列表（按年份分组，含 arXiv/DOI/PDF 链接） |
+| `teaching.html` | 教学 |
+| `presentations.html` | 报告 |
+| `useful-links.html` | 私人项目入口（Physicist's homepage、Notepad，需密码） |
+| `private/` | 私人区域：物理学家名单、日记（密码：见 `assets/js/auth.js`） |
+| `assets/` | 样式、脚本、图片 |
 
-### Option A — user/org site (repo named `<username>.github.io`)
-
-1. Create a new (empty) repository named exactly `<username>.github.io`
-   on GitHub.
-2. Push the site:
-
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial website"
-   git branch -M main
-   git remote add origin https://github.com/<username>/<username>.github.io.git
-   git push -u origin main
-   ```
-
-3. Go to **Settings → Pages** and set Source to
-   `Deploy from a branch` → branch `main`, folder `/ (root)`.
-4. Wait ~1 minute, then visit `https://<username>.github.io/`.
-
-### Option B — project site (repo under a subpath, e.g. `homepage`)
-
-1. Create a repository (e.g. `homepage`).
-2. Same git steps as above, pushing to that repo.
-3. In **Settings → Pages**, set the source branch to `main` `/ (root)`.
-4. Visit `https://<username>.github.io/homepage/`.
-
-> Note: with a project site, all internal links must be prefixed with the
-> repo name (e.g. `href="homepage/publications.html"`), or use relative
-> paths carefully. If you plan to use a subpath, edit the `<link>` and
-> `<nav>` hrefs accordingly.
-
-## Local preview
+## 本地预览
 
 ```bash
-# with Python
 python3 -m http.server 8000
-# then open http://localhost:8000
+# 打开 http://localhost:8000
 ```
 
-> The "[Last update: ...]" line on the home page is filled in automatically
-> by a small inline script (`document.lastModified`), so it always shows the
-> date `index.html` was last saved — no need to edit it by hand. For the date
-> to be accurate, view the site over HTTP (e.g. the preview command above or
-> GitHub Pages), not by double-clicking the file.
+## 更新部署
 
-## Customization tips
-
-- **Photo**: add `assets/img/photo.jpg` and an `<img>` in the header of `index.html`.
-- **CV**: add `assets/cv.pdf` and a link in the Home "Links" section.
-- **New page**: copy an existing page, update the `<title>`, the active
-  nav class, and add a nav entry on every page.
-- **Syntax/fonts**: everything lives in `assets/css/style.css` (single file,
-  responsive, mobile-friendly).
+```bash
+git add -A
+git commit -m "update"
+git push origin main
+```
