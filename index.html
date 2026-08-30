@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Jian-Gang Kong (孔建刚) — Home</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <h1 class="site-title"> The academic homepage of Jian-Gang Kong (孔建刚) </h1>
+    <p class="site-subtitle"> Interested in quantum many-body systems, tensor networks and AI </p>
+  </header>
+
+  <nav class="nav">
+    <a href="index.html" class="active">Home</a>
+    <a href="publications.html">Publications</a>
+    <a href="teaching.html">Teaching</a>
+    <a href="presentations.html">Presentations</a>
+    <a href="useful-links.html">Useful Links</a>
+  </nav>
+
+  <div class="last-update">[Last update: <span id="last-update-date">2026/08/16</span>]</div>
+
+  <div class="section">
+    <div class="profile">
+      <!-- TODO: put your photo at assets/images/photo.jpg -->
+      <div class="profile-photo">
+        <img src="assets/images/photo.jpg" alt="Jian-Gang Kong (孔建刚)">
+      </div>
+      <div class="profile-text">
+        <!-- TODO: write a short self-introduction (2-4 sentences) -->
+        I am a researcher working at the intersection of quantum many-body physics, artificial intelligence, 
+        and tensor networks. Currently, my research focuses on (1) AI tools for quantum materials; (2)  
+        Grassmann tensor network methods for strongly correlated fermionic systems.
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Research Interests</div>
+    <div class="keyword-list">
+      <!-- TODO: edit this keyword list -->
+      Quantum many-body systems /
+      Grassmann tensor networks /
+      Strongly correlated fermions /
+      Quantum phase transitions /
+      Symmetric mass generation /
+      Tensor network theory
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">E-mail</div>
+    <div class="section-content">
+      <code>jgkong@cqupt.edu.cn</code><br>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Education</div>
+    <div class="cv-list">
+      <div class="cv-row">
+        <div class="cv-date">2022/09 - 2026/06</div>
+        <div>PhD, School of Physics, Renmin University of China</div>
+      </div>
+      <div class="cv-row">
+        <div class="cv-date">2019/09 - 2022/06</div>
+        <div>Master, School of Science, Chongqing University of Posts and Telecommunications</div>
+      </div>
+      <div class="cv-row">
+        <div class="cv-date">2015/09 - 2019/06</div>
+        <div>Bachelor, School of Science, Chongqing University of Posts and Telecommunications</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Research Career</div>
+    <div class="cv-list">
+      <div class="cv-row">
+        <div class="cv-date">2026/09 - present</div>
+        <div>Postdoc at Chongqing Key Laboratory for Dedicated Quantum Computing and Quantum Artificial Intelligence <!-- TODO: institution --></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Links</div>
+    <ul class="simple-list">
+      <li><a href="https://arxiv.org/search/cond-mat?query=Jian-Gang+Kong&searchtype=author&abstracts=show&order=-announced_date_first&size=50">arXiv page</a></li>
+      <li><a href="https://github.com/Harrykjg-physics">GitHub page</a></li>
+    </ul>
+  </div>
+
+  <footer class="last-update">
+    &copy; 2026 Jian-Gang Kong (孔建刚). All rights reserved.
+  </footer>
+
+  <script>
+    // Auto-update the "Last update" date from this file's modification time.
+    // document.lastModified comes from the server's Last-Modified header,
+    // so it refreshes automatically whenever index.html is edited and saved.
+    (function () {
+      var el = document.getElementById('last-update-date');
+      if (!el) return;
+      var d = new Date(document.lastModified);
+      if (isNaN(d.getTime())) return; // fall back to the static date above
+      var pad = function (n) { return String(n).padStart(2, '0'); };
+      el.textContent = d.getFullYear() + '/' + pad(d.getMonth() + 1) + '/' + pad(d.getDate());
+    })();
+  </script>
+
+</body>
+</html>

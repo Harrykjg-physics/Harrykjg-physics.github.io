@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notepad — Private</title>
+  <link rel="stylesheet" href="../../assets/css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <h1 class="site-title">The academic homepage of Jian-Gang Kong (孔建刚)</h1>
+    <p class="site-subtitle">Interested in quantum many-body systems, tensor networks and AI</p>
+  </header>
+
+  <nav class="nav">
+    <a href="../../index.html">Home</a>
+    <a href="../../publications.html">Publications</a>
+    <a href="../../teaching.html">Teaching</a>
+    <a href="../../presentations.html">Presentations</a>
+    <a href="../../useful-links.html" class="active">Useful Links</a>
+  </nav>
+
+  <div class="section">
+    <div class="section-title">Notepad</div>
+    <p class="muted">私人日记：年份 → 月份 → 日期（如 0513 = 5 月 13 日）→ 当日日记</p>
+    <div id="notepad-app" class="notepad-app">
+      <p class="muted">Loading…</p>
+    </div>
+  </div>
+
+  <footer class="last-update">
+    &copy; 2026 Jian-Gang Kong (孔建刚). All rights reserved.
+    &middot; <a href="#" id="psw-logout">退出登录</a>
+  </footer>
+
+  <!-- Load the diary data only after the password gate is unlocked -->
+  <script>
+    (window.__pswCbs = window.__pswCbs || []).push(function () {
+      var s = document.createElement("script");
+      s.src = "diary.js";
+      document.body.appendChild(s);
+    });
+  </script>
+  <script src="../../assets/js/auth.js"></script>
+
+</body>
+</html>
