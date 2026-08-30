@@ -15,7 +15,7 @@ window.PHYSICISTS = [
     scholar: "https://scholar.google.com/citations?hl=en&user=EG0r6McAAAAJ&view_op=list_works&sortby=pubdate"
   },
   {
-    name: "Jia-Ji Zhu （朱家骥）",
+    name: "Jia-Ji Zhu（朱家骥）",
     scholar: "https://scholar.google.com/citations?hl=en&user=pP2cUmcAAAAJ&view_op=list_works&sortby=pubdate"
   },
   {
