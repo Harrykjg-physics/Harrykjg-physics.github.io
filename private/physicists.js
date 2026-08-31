@@ -89,6 +89,11 @@ window.PHYSICISTS = [
     scholar: "https://scholar.google.com/citations?hl=en&user=KqbwGFwAAAAJ&view_op=list_works&sortby=pubdate"
   },
   {
+    name: "Haiping Huang (黄海平)",
+    home: "https://sites.google.com/site/physhuang/welcome-to-visit-haiping-huangs-homepage",
+    scholar: "https://scholar.google.com/citations?hl=en&user=pu7JPV8AAAAJ&view_op=list_works&sortby=pubdate"
+  },
+  {
     name: "Jutho Haegeman",
     scholar: "https://scholar.google.com/citations?hl=en&user=yfHe3OAAAAAJ&view_op=list_works&sortby=pubdate"
   },
