@@ -46,6 +46,10 @@ window.PHYSICISTS = [
     scholar: "https://scholar.google.com/citations?hl=en&user=7wiebe8AAAAJ&view_op=list_works&sortby=pubdate"
   },
   {
+    name: "Shi-Ju Ran (冉仕举)",
+    scholar: "https://scholar.google.com/citations?hl=en&user=CBjvzugAAAAJ&view_op=list_works&sortby=pubdate"
+  },
+  {
     name: "Rong Yu (俞蓉)",
     scholar: "https://scholar.google.com/citations?hl=en&user=zb31-20AAAAJ&view_op=list_works&sortby=pubdate"
   },
