@@ -93,6 +93,11 @@ window.PHYSICISTS = [
     scholar: "https://scholar.google.com/citations?hl=en&user=KqbwGFwAAAAJ&view_op=list_works&sortby=pubdate"
   },
   {
+    name: "Shuo Yang (杨硕)",
+    home: "https://sites.google.com/view/shuoyang1984/home",
+    scholar: "https://scholar.google.com/citations?hl=en&user=nemjDVIAAAAJ&view_op=list_works&sortby=pubdate"
+  },
+  {
     name: "Haiping Huang (黄海平)",
     home: "https://sites.google.com/site/physhuang/welcome-to-visit-haiping-huangs-homepage",
     scholar: "https://scholar.google.com/citations?hl=en&user=pu7JPV8AAAAJ&view_op=list_works&sortby=pubdate"
@@ -100,6 +105,11 @@ window.PHYSICISTS = [
   {
     name: "Jutho Haegeman",
     scholar: "https://scholar.google.com/citations?hl=en&user=yfHe3OAAAAAJ&view_op=list_works&sortby=pubdate"
+  },
+  {
+    name: "Atsushi Ueda",
+    home: "https://dartsushi.github.io/",
+    scholar: "https://scholar.google.com/citations?hl=zh-CN&user=l2mt3nEAAAAJ&view_op=list_works&sortby=pubdate"
   },
   {
     name: "Juraj Hasik",
