@@ -132,6 +132,10 @@ window.PHYSICISTS = [
     scholar: "https://scholar.google.com/citations?hl=en&user=gPGlTbgAAAAJ&view_op=list_works&sortby=pubdate"
   },
   {
+    name: "Garnet Kin-Lic Chan",
+    scholar: "https://scholar.google.com/citations?hl=zh-CN&user=TDzdHZgAAAAJ&view_op=list_works&sortby=pubdate"
+  },
+  {
     name: "Laurens Vanderstraeten",
     scholar: "https://scholar.google.com/citations?hl=en&user=m8wiLSsAAAAJ&view_op=list_works&sortby=pubdate"
   },
