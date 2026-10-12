@@ -132,6 +132,11 @@ window.PHYSICISTS = [
     scholar: "https://scholar.google.com/citations?hl=en&user=gPGlTbgAAAAJ&view_op=list_works&sortby=pubdate"
   },
   {
+    name: "Sirui Lu",
+    home: "https://sirui-lu.com/",
+    scholar: "https://scholar.google.com/citations?hl=en&user=8rdMKOYAAAAJ&view_op=list_works&sortby=pubdate"
+  },
+  {
     name: "Garnet Kin-Lic Chan",
     scholar: "https://scholar.google.com/citations?hl=zh-CN&user=TDzdHZgAAAAJ&view_op=list_works&sortby=pubdate"
   },
