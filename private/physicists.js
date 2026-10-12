@@ -85,6 +85,10 @@ window.PHYSICISTS = [
     scholar: "https://scholar.google.com/citations?hl=en&user=_8KbQtEAAAAJ&view_op=list_works&sortby=pubdate"
   },
   {
+    name: "Mingpu Qin (秦明普)",
+    scholar: "https://scholar.google.com/citations?hl=en&user=ikqa-0IAAAAJ&view_op=list_works&sortby=pubdate"
+  },
+  {
     name: "Zi-Xiang Li (李自翔)",
     scholar: "https://scholar.google.com/citations?hl=en&user=FYPtQpwAAAAJ&view_op=list_works&sortby=pubdate"
   },
