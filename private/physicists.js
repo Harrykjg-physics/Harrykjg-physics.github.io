@@ -25,6 +25,7 @@ window.PHYSICISTS = [
   {
     name: "Shinichiro Akiyama (秋山近一郎)",
     home: "https://akiyama-es.github.io/",
+    scholar: "https://scholar.google.com/citations?hl=ja&user=j-RFwvoAAAAJ&view_op=list_works&sortby=pubdate"
   },
   {
     name: "Philippe Corboz",
