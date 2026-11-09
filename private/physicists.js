@@ -77,6 +77,10 @@ window.PHYSICISTS = [
     home: "https://www.jinguo-group.science/",
     scholar: "https://scholar.google.com/citations?hl=en&user=4edw228AAAAJ&view_op=list_works&sortby=pubdate"
   },
+   {
+    name: "Di Luo",
+    scholar: "https://scholar.google.com/citations?hl=en&user=OxZytTQAAAAJ&view_op=list_works&sortby=pubdate"
+  },
   {
     name: "Qi Yang (仰旗)",
     home: "https://qiyang-ustc.github.io/",
